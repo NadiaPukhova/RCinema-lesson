@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: local('Josefin Sans'),
+        url('../fonts/JosefinSans-Thin.woff2') format('woff2'),
+        url('../fonts/JosefinSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: local('Josefin Sans'),
+        url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
+        url('../fonts/JosefinSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #121521;
+    color: #FFFFFF;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.container {
+    width: 1240px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.header {
+    font-family: 'Darker Grotesque';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 50px;
+    height: 40px;
+}
+
+.header__menu {
+    width: 705px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 60px;
+    height: 750px;
+}
+
+.banner__contant {
+    position: absolute;
+    top: 185px;
+}
+
+.banner__img {
+    position: absolute;
+    left: 550px;
+}
+
+.banner__text1 {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B2B2D3;
+}
+
+.banner__text h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.banner__text2 {
+    font-family: 'Darker Grotesque';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    margin-top: 10px;
+}
+
+.banner__btns {
+    margin-top: 100px;
+    width: 455px;
+}
+
+.banner__btn {
+    font-family: 'Darker Grotesque';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 59px;
+}
+
+.banner__btn--color {
+    width: 176px;
+    background: #40467C;
+    border: 2px solid #40467C;
+    margin-right: 30px;
+}
+
+.banner__btn--transparent {
+    width: 204px;
+    background: rgba(20, 25, 35, 0.01);
+    border: 2px solid #FFFFFF;
+}
+
+.open-air {
+    margin-top: 120px;
+    background: #1B213A;
+}
+
+.open-air__video {
+    position: relative;
+}
+
+.open-air__square {
+    position: absolute;
+    top: 232px;
+    left: 274px;
+    width: 60px;
+    height: 60px;
+    background: #40467C;
+}
+
+.open-air__play img {
+    position: absolute;
+    top: 250px;
+    left: 298px;
+}
+
+.open-air__contant {
+    margin-left: 30px;
+}
+
+.open-air__headline h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+}
+
+.open-air__text {
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px 30px;
+}
+
+.open-air__item {
+    width: 273px;
+}
+
+.open-air__item--height1 {
+    height: 105px;
+}
+
+.open-air__item--height2 {
+    height: 141px;
+}
+
+.open-air__item h3 {
+    margin: 0;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.open-air__item p {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.open-air__item--top p {
+    margin-top: 50px;
+}
